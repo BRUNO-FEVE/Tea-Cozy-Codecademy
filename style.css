@@ -1,0 +1,122 @@
+body {
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  margin: 0;
+}
+
+header {
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  height: 69px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 20px 10px 10px;
+  position: fixed;
+  z-index: 10;
+}
+
+header img {
+  height: 50px;
+}
+
+header a {
+  color: seashell;
+}
+
+.links {
+  float: right;
+  position: relative;
+  top: 30px;
+}
+
+.mission {
+  position: relative;
+  top: 69px;
+  background: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  flex-shrink: 0;
+}
+
+.mission .text {
+  background-color: black;
+  width: 100%;
+  text-align: center;
+}
+
+.imgs-list {
+  position: relative;
+  top: 90px;
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.imgs-list .list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.imgs-list .list h4 {
+  margin-top: 10px;
+}
+
+.imgs-list .images {
+  max-height: 200px;
+  max-width: 300px;
+}
+
+.locations {
+  background: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+  background-size: cover;
+  position: relative;
+  top: 90px;
+  text-align: center;
+  width: auto;
+  min-height: 500px;
+  margin: 0 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.address {
+  background-color: black;
+  display: inline-block;
+  width: 300px;
+  opacity: 1;
+  padding: 10px;
+  margin-left: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: space-around;
+}
+
+.contact {
+  position: relative;
+  top: 90px;
+  text-align: center;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+footer {
+  position: relative;
+  top: 90px;
+  margin: 20px;
+  padding: 5px;
+}
